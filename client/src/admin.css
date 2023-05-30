@@ -1,0 +1,145 @@
+.admin-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    background-color: cream;
+    border: 1px solid beige;
+    padding: 20px;
+  }
+  
+  .admin-page h2 {
+    color: chocolate;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .admin-page a {
+    text-decoration: none;
+  }
+  
+  .admin-page__add-company,
+  .admin-page__add-supplier,
+  .admin-page__add-storage {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .admin-page__add-company input,
+  .admin-page__add-supplier input,
+  .admin-page__add-storage input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid beige;
+    background-color: cream;
+    color: chocolate;
+    font-size: 1rem;
+  }
+  
+  .admin-page__add-company button,
+  .admin-page__add-supplier button,
+  .admin-page__add-storage button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: chocolate;
+    color: cream;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .admin-page__add-company button:hover,
+  .admin-page__add-supplier button:hover,
+  .admin-page__add-storage button:hover {
+    background-color: beige;
+    color: chocolate;
+  }
+  
+/*  */
+
+.other-func {
+  background-color: cream;
+  color: chocolate;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.other-func h2 {
+  color: chocolate;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.other-func button {
+  background-color: beige;
+  border: none;
+  color: chocolate;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.other-func button:hover {
+  background-color: chocolate;
+  color: white;
+}
+
+.other-func h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+
+/*  */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.5rem;
+}
+
+th {
+  background-color: #8b5e3c;
+  color: #fff;
+}
+
+tr:nth-of-type(even) {
+  background-color: #f5f5f5;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.other-func button {
+  background-color: #f5deb3;
+  color: #8b5e3c;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 10px 0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.other-func button:hover {
+  background-color: #8b5e3c;
+  color: #fff;
+}
